@@ -5,11 +5,11 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout')
+        stage('Checkout'){
             steps{
-            checkout scm
+                checkout scm
             }
-
         }
-
+    }
 }
+
